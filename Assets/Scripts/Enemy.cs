@@ -3,20 +3,20 @@ using UnityEngine;
 public class Enemy : MonoBehaviour, IDamageable, IHazard
 {
     [SerializeField] private float _health = 1.0f;
-    [SerializeField] private AudioSource _enemyHit;
 
     private IMovementPattern _movementPattern = null;//new MovementPatternStraight(Vector2.down, 5.0f, 3.0f);
 
     public void OnHit(int amount)
     {
         _health -= amount;
-        _enemyHit?.Play();
+        AudioManager.Instance?.PlayEffect(AudioManager.Instance.EnemyHit, 0.4f);
 
         if (_health <= 0) Die();
     }
     
     public void Die()
     {
+        AudioManager.Instance.PlayEffect(AudioManager.Instance.EnemyDead, 1.0f);
         Destroy(gameObject);
     }
 

@@ -104,6 +104,7 @@ public class Player : MonoBehaviour, IDamageable
 
     public void Die()
     {
+        AudioManager.Instance.PlayEffect(AudioManager.Instance.PlayerDead, 0.5f);
         Destroy(this);
     }
 }

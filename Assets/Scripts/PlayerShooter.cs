@@ -11,9 +11,6 @@ public class PlayerShooter : MonoBehaviour
     [SerializeField] private Transform _firePoint;
     [SerializeField] private Vector2 _fireDirection = Vector2.up;
 
-    [SerializeField] private AudioSource _audioSource;
-    [SerializeField] private AudioClip _soundShoot;
-
     private ObjectPool<PlayerBullet> _pool;
     private float _fireTimer;
 
@@ -58,7 +55,8 @@ public class PlayerShooter : MonoBehaviour
             _bulletLifetime
         );
 
-        _audioSource?.Play();
+
+        AudioManager.Instance.PlayEffect(AudioManager.Instance.PlayerShoot);
     }
 
     public void TryShoot()
