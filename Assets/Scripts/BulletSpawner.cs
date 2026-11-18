@@ -30,6 +30,7 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] private int _burstSize = 1;
     [SerializeField] private Vector2 _spread = Vector2.zero;
     [SerializeField] private bool _randomSpread = false;
+    [SerializeField] private Vector2 _randomSpreadArea;
 
     [Range(0.001f, 256.0f)] 
     [SerializeField] private float _fireRate = 10.0f;
@@ -107,6 +108,12 @@ public class BulletSpawner : MonoBehaviour
         Bullet bullet = _pool.Get(); // Retrieve bullet from the pool
 
         bullet.transform.position = _firePoint.transform.position + (Vector3)offset;
+        if (_randomSpread)
+            bullet.transform.position += new Vector3(
+                Random.Range(-_randomSpreadArea.x, _randomSpreadArea.x),
+                Random.Range(-_randomSpreadArea.y, _randomSpreadArea.y),
+                0.0f
+            );
         bullet.transform.rotation = _firePoint.transform.rotation;
         if (_runtimeVisualSelector != null)
             bullet.SetVisual(_runtimeVisualSelector.GetNextVisual());
