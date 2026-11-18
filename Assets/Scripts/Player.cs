@@ -80,7 +80,7 @@ public class Player : MonoBehaviour, IDamageable
     void OnDrawGizmos()
     {
         Gizmos.color = Color.violetRed;
-        Gizmos.DrawSphere(transform.position + new Vector3(0, 0.05f, 0), 0.15f);
+        Gizmos.DrawSphere(transform.position + new Vector3(0, 0, 0), 0.1f);
     }
 
     void OnTriggerEnter2D(Collider2D collision)

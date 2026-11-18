@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010ede3890b080db987c20a3e3f2b1bd, type: 3}
+  m_Name: StarLargeBlue
+  m_EditorClassIdentifier: Assembly-CSharp::BulletVisual
+  Sprite: {fileID: -1742998813, guid: f57dd049ae60bba0b968bd28bee9b69a, type: 3}
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Scale: {x: 0, y: 0, z: 0}

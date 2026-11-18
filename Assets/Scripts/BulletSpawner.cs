@@ -44,6 +44,10 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] private Transform _firePoint;
     [SerializeField] private Vector2 _fireDirection = Vector2.down;
 
+    [Header("Visual Settings")]
+    [SerializeField] private BulletVisualSelector _visualSelector;
+    private IBulletVisualSelector _runtimeVisualSelector;
+
     private ObjectPool<Bullet> _pool;
     private float _fireTimer;
     private float _lifetime;
@@ -74,6 +78,9 @@ public class BulletSpawner : MonoBehaviour
             defaultCapacity: _poolSize,
             maxSize: _poolSize
         );
+
+        if (_visualSelector != null)
+            _runtimeVisualSelector = _visualSelector.CreateRuntime();
     }
 
     void Update()
@@ -98,8 +105,11 @@ public class BulletSpawner : MonoBehaviour
         Vector2 offset = _spread * ((_shotsFired + 1) % _burstSize);
 
         Bullet bullet = _pool.Get(); // Retrieve bullet from the pool
+
         bullet.transform.position = _firePoint.transform.position + (Vector3)offset;
         bullet.transform.rotation = _firePoint.transform.rotation;
+        if (_runtimeVisualSelector != null)
+            bullet.SetVisual(_runtimeVisualSelector.GetNextVisual());
 
         IMovementPattern pattern = new MovementPatternStraight(_fireDirection, _bulletSpeed, _bulletLifetime);
 

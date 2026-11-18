@@ -13,6 +13,8 @@ public class Bullet : MonoBehaviour, IProjectile
     public int Damage { get => _damage; set => _damage = value; }
     [SerializeField] private float _rotationSpeed = 0.0f;
 
+    private SpriteRenderer _sprite;
+
     public void Initialize(
         IObjectPool<Bullet> pool,
         IMovementPattern pattern,
@@ -23,6 +25,11 @@ public class Bullet : MonoBehaviour, IProjectile
         _pattern = pattern;
         _lifetime = lifetime;
         _timer = 0.0f;
+    }
+
+    void Awake()
+    {
+        _sprite = GetComponent<SpriteRenderer>();
     }
 
     public void MoveTick(float deltaTime)
@@ -58,5 +65,13 @@ public class Bullet : MonoBehaviour, IProjectile
 
         if (_rotationSpeed > 0.0f)
             transform.rotation = Quaternion.Euler(0f, 0f, _rotationSpeed * _timer * 100);
+    }
+
+    public void SetVisual(BulletVisual visual)
+    {
+        _sprite.sprite = visual.Sprite;
+        _sprite.color = visual.Color;
+        if (visual.Scale != Vector3.zero)
+            transform.localScale = visual.Scale;
     }
 }
