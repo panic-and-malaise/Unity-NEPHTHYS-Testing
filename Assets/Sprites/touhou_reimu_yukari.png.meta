@@ -1,0 +1,1077 @@
+fileFormatVersion: 2
+guid: dbdd65f02bbdde91784085583e849f7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8787398512092203062
+    second: touhou_reimu_yukari_0
+  - first:
+      213: -7916487591999880025
+    second: touhou_reimu_yukari_1
+  - first:
+      213: 9209634777979200089
+    second: touhou_reimu_yukari_2
+  - first:
+      213: -5232000042205579581
+    second: touhou_reimu_yukari_3
+  - first:
+      213: -4009229300650839405
+    second: touhou_reimu_yukari_4
+  - first:
+      213: 310550334295413741
+    second: touhou_reimu_yukari_5
+  - first:
+      213: 4121804155359379569
+    second: touhou_reimu_yukari_6
+  - first:
+      213: 7176197209837991432
+    second: touhou_reimu_yukari_7
+  - first:
+      213: 7500998401085751749
+    second: touhou_reimu_yukari_8
+  - first:
+      213: 5493446499213514405
+    second: touhou_reimu_yukari_9
+  - first:
+      213: 6421302878237868909
+    second: touhou_reimu_yukari_10
+  - first:
+      213: 376262136562228054
+    second: touhou_reimu_yukari_11
+  - first:
+      213: -5269736304813715744
+    second: touhou_reimu_yukari_12
+  - first:
+      213: -4062952227268902447
+    second: touhou_reimu_yukari_13
+  - first:
+      213: 2483521060384284934
+    second: touhou_reimu_yukari_14
+  - first:
+      213: 8309345894352081364
+    second: touhou_reimu_yukari_15
+  - first:
+      213: -7277492208850833575
+    second: touhou_reimu_yukari_16
+  - first:
+      213: -8589787652026272290
+    second: touhou_reimu_yukari_17
+  - first:
+      213: 5722294636700560008
+    second: touhou_reimu_yukari_18
+  - first:
+      213: -8480406480716659516
+    second: touhou_reimu_yukari_19
+  - first:
+      213: 2474070208362256044
+    second: touhou_reimu_yukari_20
+  - first:
+      213: 4938416386587086359
+    second: touhou_reimu_yukari_21
+  - first:
+      213: -5340400555768637353
+    second: touhou_reimu_yukari_22
+  - first:
+      213: -7774638635329441559
+    second: touhou_reimu_yukari_23
+  - first:
+      213: -5410684818899294877
+    second: touhou_reimu_yukari_24
+  - first:
+      213: -6795363147138306668
+    second: touhou_reimu_yukari_25
+  - first:
+      213: 7027634315612693747
+    second: touhou_reimu_yukari_26
+  - first:
+      213: 2002370085576838785
+    second: touhou_reimu_yukari_27
+  - first:
+      213: 2161578935511127315
+    second: touhou_reimu_yukari_28
+  - first:
+      213: 8472149539484847176
+    second: touhou_reimu_yukari_29
+  - first:
+      213: 3105993747666199432
+    second: touhou_reimu_yukari_30
+  - first:
+      213: -7442791967235349617
+    second: touhou_reimu_yukari_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 28
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 208
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7b2f26c93ec0680800000000000000
+      internalID: -8787398512092203062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 208
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a44f0a7a7cf22290800000000000000
+      internalID: -7916487591999880025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 208
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952a88c29023fcf70800000000000000
+      internalID: 9209634777979200089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 208
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6f1839ea33467b0800000000000000
+      internalID: -5232000042205579581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 206
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3927e9f513b5c58c0800000000000000
+      internalID: -4009229300650839405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 206
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de39e8832eb4f4400800000000000000
+      internalID: 310550334295413741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 206
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170cce18a07933930800000000000000
+      internalID: 4121804155359379569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 206
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806fa8a5759f69360800000000000000
+      internalID: 7176197209837991432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_8
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 158
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c14d75cd46e81860800000000000000
+      internalID: 7500998401085751749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 114
+        width: 129
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a61c3a4c74ac3c40800000000000000
+      internalID: 5493446499213514405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 162
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63cf8c32fc0d1950800000000000000
+      internalID: 6421302878237868909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 161
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b98307b60c83500800000000000000
+      internalID: 376262136562228054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 161
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee499340c22ed6b0800000000000000
+      internalID: -5269736304813715744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 160
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1414ac97e7d97c0800000000000000
+      internalID: -4062952227268902447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 160
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60128640f3d377220800000000000000
+      internalID: 2483521060384284934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 160
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1d4bce01ab05370800000000000000
+      internalID: 8309345894352081364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 160
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fe5c3d467210b90800000000000000
+      internalID: -7277492208850833575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 110
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5ffe024a1fac880800000000000000
+      internalID: -8589787652026272290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 96
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ae8a077aca96f40800000000000000
+      internalID: 5722294636700560008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 110
+        width: 97
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c486f5ac3b8f4a80800000000000000
+      internalID: -8480406480716659516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 110
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca61fce0fb9a55220800000000000000
+      internalID: 2474070208362256044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_21
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 66
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ecd7be987c88440800000000000000
+      internalID: 4938416386587086359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 110
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7589c1b3df513e5b0800000000000000
+      internalID: -5340400555768637353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_23
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 110
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0392c5a5fea1490800000000000000
+      internalID: -7774638635329441559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 66
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365a8e103d269e4b0800000000000000
+      internalID: -5410684818899294877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 122
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d6a07983502b1a0800000000000000
+      internalID: -6795363147138306668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_26
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 82
+        width: 64
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4a0711d2c278160800000000000000
+      internalID: 7027634315612693747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_27
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 66
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e0dabdbf8d9cb10800000000000000
+      internalID: 2002370085576838785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 48
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3159b1dd6987ffd10800000000000000
+      internalID: 2161578935511127315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ccbf86e1f139570800000000000000
+      internalID: 8472149539484847176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 34
+        width: 64
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8836a347bd4ba1b20800000000000000
+      internalID: 3105993747666199432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_31
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 20
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f836ecfa324e5b890800000000000000
+      internalID: -7442791967235349617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_32
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 66
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0074a0f9c2d2e5b95b574beab1d6fc5e
+      internalID: 1265644142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_33
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 66
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e40038228b7d6247a3bd7f4668a441d
+      internalID: -1295430778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_34
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 20
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aeb4c3aa5fff09ebb9be3237db49918
+      internalID: -1898442551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 20
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccee2705563d4196a2bd765dcc81fd1
+      internalID: 663495735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_reimu_yukari_36
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 20
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27309cd600f6ec59d93199e27e56f9fb
+      internalID: 293213748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8c7eee51b88b0274797dce07cfd5ba72
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      touhou_reimu_yukari_0: -8787398512092203062
+      touhou_reimu_yukari_1: -7916487591999880025
+      touhou_reimu_yukari_10: 6421302878237868909
+      touhou_reimu_yukari_11: 376262136562228054
+      touhou_reimu_yukari_12: -5269736304813715744
+      touhou_reimu_yukari_13: -4062952227268902447
+      touhou_reimu_yukari_14: 2483521060384284934
+      touhou_reimu_yukari_15: 8309345894352081364
+      touhou_reimu_yukari_16: -7277492208850833575
+      touhou_reimu_yukari_17: -8589787652026272290
+      touhou_reimu_yukari_18: 5722294636700560008
+      touhou_reimu_yukari_19: -8480406480716659516
+      touhou_reimu_yukari_2: 9209634777979200089
+      touhou_reimu_yukari_20: 2474070208362256044
+      touhou_reimu_yukari_21: 4938416386587086359
+      touhou_reimu_yukari_22: -5340400555768637353
+      touhou_reimu_yukari_23: -7774638635329441559
+      touhou_reimu_yukari_24: -5410684818899294877
+      touhou_reimu_yukari_25: -6795363147138306668
+      touhou_reimu_yukari_26: 7027634315612693747
+      touhou_reimu_yukari_27: 2002370085576838785
+      touhou_reimu_yukari_28: 2161578935511127315
+      touhou_reimu_yukari_29: 8472149539484847176
+      touhou_reimu_yukari_3: -5232000042205579581
+      touhou_reimu_yukari_30: 3105993747666199432
+      touhou_reimu_yukari_31: -7442791967235349617
+      touhou_reimu_yukari_32: 1265644142
+      touhou_reimu_yukari_33: -1295430778
+      touhou_reimu_yukari_34: -1898442551
+      touhou_reimu_yukari_35: 663495735
+      touhou_reimu_yukari_36: 293213748
+      touhou_reimu_yukari_4: -4009229300650839405
+      touhou_reimu_yukari_5: 310550334295413741
+      touhou_reimu_yukari_6: 4121804155359379569
+      touhou_reimu_yukari_7: 7176197209837991432
+      touhou_reimu_yukari_8: 7500998401085751749
+      touhou_reimu_yukari_9: 5493446499213514405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

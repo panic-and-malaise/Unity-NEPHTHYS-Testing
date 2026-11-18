@@ -1,0 +1,846 @@
+fileFormatVersion: 2
+guid: 5c986eb10c422fabc96bca94944466e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8711294724358469909
+    second: touhou_stage_4_0
+  - first:
+      213: -2215743067326451598
+    second: touhou_stage_4_1
+  - first:
+      213: -6985088026049687463
+    second: touhou_stage_4_2
+  - first:
+      213: -7662158076642279959
+    second: touhou_stage_4_3
+  - first:
+      213: -1229503243383542754
+    second: touhou_stage_4_4
+  - first:
+      213: -1883541548443943884
+    second: touhou_stage_4_5
+  - first:
+      213: 1928858988276090285
+    second: touhou_stage_4_6
+  - first:
+      213: -7095549788036955528
+    second: touhou_stage_4_7
+  - first:
+      213: 7937150090821751337
+    second: touhou_stage_4_8
+  - first:
+      213: 42882938505658635
+    second: touhou_stage_4_9
+  - first:
+      213: -3738531162571347972
+    second: touhou_stage_4_10
+  - first:
+      213: -3423584696558855480
+    second: touhou_stage_4_11
+  - first:
+      213: -7113010105827066073
+    second: touhou_stage_4_12
+  - first:
+      213: 905490549692684097
+    second: touhou_stage_4_13
+  - first:
+      213: 5061175223406824666
+    second: touhou_stage_4_14
+  - first:
+      213: -13261801168723269
+    second: touhou_stage_4_15
+  - first:
+      213: -2831210524942948477
+    second: touhou_stage_4_16
+  - first:
+      213: 5973241220702602138
+    second: touhou_stage_4_17
+  - first:
+      213: 3046997607948027400
+    second: touhou_stage_4_18
+  - first:
+      213: 1413015918761902496
+    second: touhou_stage_4_19
+  - first:
+      213: 340557145436577558
+    second: touhou_stage_4_20
+  - first:
+      213: -78277626316491471
+    second: touhou_stage_4_21
+  - first:
+      213: 1600185127857670828
+    second: touhou_stage_4_22
+  - first:
+      213: 1315909773752459097
+    second: touhou_stage_4_23
+  - first:
+      213: -3770225470437103595
+    second: touhou_stage_4_24
+  - first:
+      213: -5424349853119813837
+    second: touhou_stage_4_25
+  - first:
+      213: -861724348888985255
+    second: touhou_stage_4_26
+  - first:
+      213: -2335619392030251065
+    second: touhou_stage_4_27
+  - first:
+      213: 9013662082156047323
+    second: touhou_stage_4_28
+  - first:
+      213: 8620776769236543314
+    second: touhou_stage_4_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: touhou_stage_4_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 815
+        width: 256
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be601e44a934b1780800000000000000
+      internalID: -8711294724358469909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 883
+        width: 228
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270f8767b691041e0800000000000000
+      internalID: -2215743067326451598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 564
+        width: 17
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950597ae27bff0f90800000000000000
+      internalID: -6985088026049687463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1006
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edb8dc33db8aa590800000000000000
+      internalID: -7662158076642279959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1006
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ceee7705defeee0800000000000000
+      internalID: -1229503243383542754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_5
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1006
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c3f4de0f05cd5e0800000000000000
+      internalID: -1883541548443943884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1006
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da50402c70fa4ca10800000000000000
+      internalID: 1928858988276090285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_8
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 926
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922d36c64fb662e60800000000000000
+      internalID: 7937150090821751337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_9
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 926
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b010e8c2ec9589000800000000000000
+      internalID: 42882938505658635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_10
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 932
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7e43917b11e1cc0800000000000000
+      internalID: -3738531162571347972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_11
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 935
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca552f7bdbfc70d0800000000000000
+      internalID: -3423584696558855480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_12
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 846
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ff96ebef2894d90800000000000000
+      internalID: -7113010105827066073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_13
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 846
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147d7e18bd2f09c00800000000000000
+      internalID: 905490549692684097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_14
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 846
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc0c29ec08ec3640800000000000000
+      internalID: 5061175223406824666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 845
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2a14c4672e0dff0800000000000000
+      internalID: -13261801168723269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 564
+        width: 289
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387ad68270585b8d0800000000000000
+      internalID: -2831210524942948477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 793
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9303bd1e3735e250800000000000000
+      internalID: 5973241220702602138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_19
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 715
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a186cbdd7a0c9310800000000000000
+      internalID: 1413015918761902496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_20
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 715
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fd77f5be6e9b400800000000000000
+      internalID: 340557145436577558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_21
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 715
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1357b81e9e6e9eef0800000000000000
+      internalID: -78277626316491471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_22
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 715
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caac1d845eff43610800000000000000
+      internalID: 1600185127857670828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 634
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fdafc97fc034210800000000000000
+      internalID: 1315909773752459097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_24
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 639
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518677ff8e77dabc0800000000000000
+      internalID: -3770225470437103595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_25
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 639
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337e95b4c86d8b4b0800000000000000
+      internalID: -5424349853119813837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_26
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 640
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951da22354a8a04f0800000000000000
+      internalID: -861724348888985255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_27
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 553
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7e58f9986369fd0800000000000000
+      internalID: -2335619392030251065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: touhou_stage_4_28
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 40
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdba15448e5f61d70800000000000000
+      internalID: 9013662082156047323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42ffb8af21ffa7c3e913324de0b3d9e6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":30.0,"y":46.0},"gridSpriteOffset":{"x":5.0,"y":12.0},"gridSpritePadding":{"x":2.0,"y":1.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      touhou_stage_4_0: -8711294724358469909
+      touhou_stage_4_1: -2215743067326451598
+      touhou_stage_4_10: -3738531162571347972
+      touhou_stage_4_11: -3423584696558855480
+      touhou_stage_4_12: -7113010105827066073
+      touhou_stage_4_13: 905490549692684097
+      touhou_stage_4_14: 5061175223406824666
+      touhou_stage_4_15: -13261801168723269
+      touhou_stage_4_16: -2831210524942948477
+      touhou_stage_4_17: 5973241220702602138
+      touhou_stage_4_18: 3046997607948027400
+      touhou_stage_4_19: 1413015918761902496
+      touhou_stage_4_2: -6985088026049687463
+      touhou_stage_4_20: 340557145436577558
+      touhou_stage_4_21: -78277626316491471
+      touhou_stage_4_22: 1600185127857670828
+      touhou_stage_4_23: 1315909773752459097
+      touhou_stage_4_24: -3770225470437103595
+      touhou_stage_4_25: -5424349853119813837
+      touhou_stage_4_26: -861724348888985255
+      touhou_stage_4_27: -2335619392030251065
+      touhou_stage_4_28: 9013662082156047323
+      touhou_stage_4_29: 8620776769236543314
+      touhou_stage_4_3: -7662158076642279959
+      touhou_stage_4_4: -1229503243383542754
+      touhou_stage_4_5: -1883541548443943884
+      touhou_stage_4_6: 1928858988276090285
+      touhou_stage_4_7: -7095549788036955528
+      touhou_stage_4_8: 7937150090821751337
+      touhou_stage_4_9: 42882938505658635
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
