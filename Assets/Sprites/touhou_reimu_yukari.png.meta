@@ -294,7 +294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_4
+      name: yukari_idle_0
       rect:
         serializedVersion: 2
         x: 140
@@ -316,7 +316,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_5
+      name: yukari_idle_1
       rect:
         serializedVersion: 2
         x: 172
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_6
+      name: yukari_idle_2
       rect:
         serializedVersion: 2
         x: 204
@@ -360,7 +360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_7
+      name: yukari_idle_3
       rect:
         serializedVersion: 2
         x: 236
@@ -580,7 +580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_17
+      name: yukari_move_0
       rect:
         serializedVersion: 2
         x: 13
@@ -602,7 +602,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_18
+      name: touhou_reimu_bullet
       rect:
         serializedVersion: 2
         x: 22
@@ -624,12 +624,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_19
+      name: yukari_move_1
       rect:
         serializedVersion: 2
-        x: 45
+        x: 46
         y: 110
-        width: 97
+        width: 30
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -646,10 +646,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_20
+      name: yukari_move_4
       rect:
         serializedVersion: 2
-        x: 140
+        x: 139
         y: 110
         width: 34
         height: 48
@@ -690,7 +690,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_22
+      name: yukari_move_5
       rect:
         serializedVersion: 2
         x: 172
@@ -712,7 +712,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_23
+      name: yukari_move_6
       rect:
         serializedVersion: 2
         x: 204
@@ -778,7 +778,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_26
+      name: touhou_yukari_bullet
       rect:
         serializedVersion: 2
         x: 13
@@ -866,7 +866,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_reimu_yukari_30
+      name: touhou_ran_bullet
       rect:
         serializedVersion: 2
         x: 13
@@ -896,7 +896,7 @@ TextureImporter:
         width: 33
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -918,7 +918,7 @@ TextureImporter:
         width: 30
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -940,7 +940,7 @@ TextureImporter:
         width: 31
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -962,7 +962,7 @@ TextureImporter:
         width: 32
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -984,7 +984,7 @@ TextureImporter:
         width: 30
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1006,7 +1006,7 @@ TextureImporter:
         width: 32
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1015,6 +1015,50 @@ TextureImporter:
       bones: []
       spriteID: 27309cd600f6ec59d93199e27e56f9fb
       internalID: 293213748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yukari_move_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 110
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7f006dd173a4767a1eb89090936e68
+      internalID: -1484476973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yukari_move_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 110
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633ca875504ee416295bc97399ce5008
+      internalID: 882261904
       vertices: []
       indices: 
       edges: []
@@ -1033,6 +1077,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      touhou_ran_bullet: 3105993747666199432
+      touhou_reimu_bullet: 5722294636700560008
       touhou_reimu_yukari_0: -8787398512092203062
       touhou_reimu_yukari_1: -7916487591999880025
       touhou_reimu_yukari_10: 6421302878237868909
@@ -1042,34 +1088,34 @@ TextureImporter:
       touhou_reimu_yukari_14: 2483521060384284934
       touhou_reimu_yukari_15: 8309345894352081364
       touhou_reimu_yukari_16: -7277492208850833575
-      touhou_reimu_yukari_17: -8589787652026272290
-      touhou_reimu_yukari_18: 5722294636700560008
-      touhou_reimu_yukari_19: -8480406480716659516
       touhou_reimu_yukari_2: 9209634777979200089
-      touhou_reimu_yukari_20: 2474070208362256044
       touhou_reimu_yukari_21: 4938416386587086359
-      touhou_reimu_yukari_22: -5340400555768637353
-      touhou_reimu_yukari_23: -7774638635329441559
       touhou_reimu_yukari_24: -5410684818899294877
       touhou_reimu_yukari_25: -6795363147138306668
-      touhou_reimu_yukari_26: 7027634315612693747
       touhou_reimu_yukari_27: 2002370085576838785
       touhou_reimu_yukari_28: 2161578935511127315
       touhou_reimu_yukari_29: 8472149539484847176
       touhou_reimu_yukari_3: -5232000042205579581
-      touhou_reimu_yukari_30: 3105993747666199432
       touhou_reimu_yukari_31: -7442791967235349617
       touhou_reimu_yukari_32: 1265644142
       touhou_reimu_yukari_33: -1295430778
       touhou_reimu_yukari_34: -1898442551
       touhou_reimu_yukari_35: 663495735
       touhou_reimu_yukari_36: 293213748
-      touhou_reimu_yukari_4: -4009229300650839405
-      touhou_reimu_yukari_5: 310550334295413741
-      touhou_reimu_yukari_6: 4121804155359379569
-      touhou_reimu_yukari_7: 7176197209837991432
       touhou_reimu_yukari_8: 7500998401085751749
       touhou_reimu_yukari_9: 5493446499213514405
+      touhou_yukari_bullet: 7027634315612693747
+      yukari_idle_0: -4009229300650839405
+      yukari_idle_1: 310550334295413741
+      yukari_idle_2: 4121804155359379569
+      yukari_idle_3: 7176197209837991432
+      yukari_move_0: -8589787652026272290
+      yukari_move_1: -8480406480716659516
+      yukari_move_2: -1484476973
+      yukari_move_3: 882261904
+      yukari_move_4: 2474070208362256044
+      yukari_move_5: -5340400555768637353
+      yukari_move_6: -7774638635329441559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

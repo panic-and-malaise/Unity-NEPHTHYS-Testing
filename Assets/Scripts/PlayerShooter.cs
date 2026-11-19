@@ -4,6 +4,7 @@ using UnityEngine.Pool;
 public class PlayerShooter : MonoBehaviour
 {
     [SerializeField] private PlayerBullet _bulletPrefab;
+    [SerializeField] private PlayerBullet _bulletPrefabFocus;
     [SerializeField] private float _bulletSpeed = 1.0f;
     [SerializeField] private float _bulletLifetime = 3.0f;
     [SerializeField] private float _fireRate = 10.0f;
@@ -12,6 +13,7 @@ public class PlayerShooter : MonoBehaviour
     [SerializeField] private Vector2 _fireDirection = Vector2.up;
 
     private ObjectPool<PlayerBullet> _pool;
+    private ObjectPool<PlayerBullet> _poolFocus;
     private float _fireTimer;
 
     void Awake()
@@ -39,17 +41,43 @@ public class PlayerShooter : MonoBehaviour
             defaultCapacity: _poolSize,
             maxSize: _poolSize
         );
+
+        _poolFocus = new ObjectPool<PlayerBullet>(
+            createFunc: () =>
+            {
+                PlayerBullet bullet = Instantiate(_bulletPrefabFocus);
+                bullet.gameObject.SetActive(false);
+                return bullet;
+            },
+            actionOnGet: bullet =>
+            {
+                bullet.gameObject.SetActive(true);
+            },
+            actionOnRelease: bullet =>
+            {
+                bullet.gameObject.SetActive(false);
+            },
+            actionOnDestroy: bullet =>
+            {
+                DestroyImmediate(bullet);
+            },
+            collectionCheck: false,
+            defaultCapacity: _poolSize,
+            maxSize: _poolSize
+        );
     }
 
     private void Shoot()
     {
-        PlayerBullet bullet = _pool.Get();
+        bool focus = Player.Instance.IsFocused;
+
+        PlayerBullet bullet = focus ? _poolFocus.Get() : _pool.Get();
 
         bullet.transform.position = _firePoint.transform.position;
         bullet.transform.rotation = _firePoint.transform.rotation;
 
         bullet.Initialize(
-            _pool,
+            focus ? _poolFocus : _pool,
             _fireDirection,
             _bulletSpeed,
             _bulletLifetime

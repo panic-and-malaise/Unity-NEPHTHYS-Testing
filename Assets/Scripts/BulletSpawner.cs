@@ -103,7 +103,9 @@ public class BulletSpawner : MonoBehaviour
     {
         _fireTimer = 0.0f; // Reset fire timer
         _shotsFired++;     // Register shot as fired
-        Vector2 offset = _spread * ((_shotsFired + 1) % _burstSize);
+
+        float centeredIndex = _shotsFired % _burstSize - (_burstSize - 1) / 2.0f;
+        Vector2 offset = _spread * centeredIndex;
 
         Bullet bullet = _pool.Get(); // Retrieve bullet from the pool
 

@@ -22,17 +22,25 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] private int _health = 3;
     [SerializeField] private float _invincibilityTime = 1.0f;
 
+    [Header("Visual")]
+    [SerializeField] private SpriteRenderer _hitboxVisual;
+
     private Rigidbody2D _body;
+    private SpriteRenderer _sprite;
+    private Animator _animator;
 
     private Vector2 _moveInput;
     private bool _isFocused;
     private float _invincibilityTimer;
 
     private bool IsInvincible => _invincibilityTimer > 0.0f;
+    public bool IsFocused => _isFocused;
 
     void Awake()
     {
         _body = GetComponent<Rigidbody2D>();
+        _sprite = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
         Instance = this;
     }
 
@@ -62,6 +70,12 @@ public class Player : MonoBehaviour, IDamageable
         _moveInput = Vector2.ClampMagnitude(_moveInput, 1.0f);
 
         _isFocused = _actionFocus.action.IsPressed();
+        _hitboxVisual.enabled = _isFocused;
+
+        _animator.SetBool("Moving", _moveInput.x != 0.0f);
+        _animator.SetBool("Focused", _isFocused);
+        _sprite.flipX = _moveInput.x > 0.0f;
+
 
         if (_actionShootPrimary.action.IsPressed())
             _shooter.TryShoot();

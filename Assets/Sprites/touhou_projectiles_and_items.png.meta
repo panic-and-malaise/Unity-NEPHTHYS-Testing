@@ -997,7 +997,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1451,7 +1451,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_45
+      name: touhou_hitbox_focus_yukari
       rect:
         serializedVersion: 2
         x: 92
@@ -1825,7 +1825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_62
+      name: touhou_star_large_white
       rect:
         serializedVersion: 2
         x: 7
@@ -3035,7 +3035,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_117
+      name: touhou_star_large_red
       rect:
         serializedVersion: 2
         x: 39
@@ -3123,7 +3123,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_121
+      name: touhou_star_small_red_dark
       rect:
         serializedVersion: 2
         x: 23
@@ -3145,7 +3145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_122
+      name: touhou_star_small_red
       rect:
         serializedVersion: 2
         x: 39
@@ -3167,7 +3167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_123
+      name: touhou_star_small_purple
       rect:
         serializedVersion: 2
         x: 55
@@ -3189,7 +3189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_124
+      name: touhou_star_small_pink
       rect:
         serializedVersion: 2
         x: 71
@@ -3211,7 +3211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_125
+      name: touhou_star_small_blue_dark
       rect:
         serializedVersion: 2
         x: 87
@@ -3233,7 +3233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_126
+      name: touhou_star_small_blue
       rect:
         serializedVersion: 2
         x: 103
@@ -3321,7 +3321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_130
+      name: touhou_star_small_green
       rect:
         serializedVersion: 2
         x: 166
@@ -3387,7 +3387,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_133
+      name: touhou_star_small_yellow
       rect:
         serializedVersion: 2
         x: 215
@@ -3453,7 +3453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_136
+      name: touhou_star_large_pink
       rect:
         serializedVersion: 2
         x: 71
@@ -3475,7 +3475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_137
+      name: touhou_star_large_blue
       rect:
         serializedVersion: 2
         x: 103
@@ -3497,7 +3497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_138
+      name: touhou_star_large_aquamarine
       rect:
         serializedVersion: 2
         x: 135
@@ -3519,7 +3519,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_139
+      name: touhou_star_large_green
       rect:
         serializedVersion: 2
         x: 167
@@ -3541,7 +3541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_140
+      name: touhou_star_large_yellow
       rect:
         serializedVersion: 2
         x: 199
@@ -3563,7 +3563,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: touhou_projectiles_and_items_141
+      name: touhou_star_large_none
       rect:
         serializedVersion: 2
         x: 231
@@ -3933,6 +3933,7 @@ TextureImporter:
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       familiar: 7185147195616216211
+      touhou_hitbox_focus_yukari: -8420901447713702177
       touhou_projectiles_and_items_0: -7193488201954880391
       touhou_projectiles_and_items_1: 8545006910368960246
       touhou_projectiles_and_items_10: -8698151865022337296
@@ -3954,34 +3955,19 @@ TextureImporter:
       touhou_projectiles_and_items_114: 4133575971004291737
       touhou_projectiles_and_items_115: -112706544127043517
       touhou_projectiles_and_items_116: 31218856629268451
-      touhou_projectiles_and_items_117: -1941554183
       touhou_projectiles_and_items_118: -1537317388
       touhou_projectiles_and_items_119: -255007070
       touhou_projectiles_and_items_12: -3648632112239951402
       touhou_projectiles_and_items_120: 1881987066
-      touhou_projectiles_and_items_121: 1796286599
-      touhou_projectiles_and_items_122: -1624869506
-      touhou_projectiles_and_items_123: 913448901
-      touhou_projectiles_and_items_124: 1971105429
-      touhou_projectiles_and_items_125: 2120529714
-      touhou_projectiles_and_items_126: -1992563826
       touhou_projectiles_and_items_127: 1500694322
       touhou_projectiles_and_items_128: -1067328283
       touhou_projectiles_and_items_129: 1061561538
       touhou_projectiles_and_items_13: -1034078076451035972
-      touhou_projectiles_and_items_130: -139822030
       touhou_projectiles_and_items_131: -494092712
       touhou_projectiles_and_items_132: -1523258497
-      touhou_projectiles_and_items_133: -1844195112
       touhou_projectiles_and_items_134: 1029074024
       touhou_projectiles_and_items_135: -421607001
-      touhou_projectiles_and_items_136: 779873452
-      touhou_projectiles_and_items_137: -1742998813
-      touhou_projectiles_and_items_138: 302187908
-      touhou_projectiles_and_items_139: -1940458645
       touhou_projectiles_and_items_14: -248689705479635412
-      touhou_projectiles_and_items_140: -1463464188
-      touhou_projectiles_and_items_141: -1199477684
       touhou_projectiles_and_items_142: -1534894616
       touhou_projectiles_and_items_143: 431262083
       touhou_projectiles_and_items_144: -440535470
@@ -4029,7 +4015,6 @@ TextureImporter:
       touhou_projectiles_and_items_42: 8428009219809873719
       touhou_projectiles_and_items_43: 6961420933929578776
       touhou_projectiles_and_items_44: -5232858781489650908
-      touhou_projectiles_and_items_45: -8420901447713702177
       touhou_projectiles_and_items_46: 4237634838222050369
       touhou_projectiles_and_items_47: -4740080914318587018
       touhou_projectiles_and_items_48: 8833487952517755266
@@ -4048,7 +4033,6 @@ TextureImporter:
       touhou_projectiles_and_items_6: 2978701425945941916
       touhou_projectiles_and_items_60: 6780851600667632767
       touhou_projectiles_and_items_61: -1181739168893528785
-      touhou_projectiles_and_items_62: 5543226224937587791
       touhou_projectiles_and_items_63: 4584390392673202752
       touhou_projectiles_and_items_64: 6654368401822908812
       touhou_projectiles_and_items_65: 2715875591157153906
@@ -4089,6 +4073,22 @@ TextureImporter:
       touhou_projectiles_and_items_97: 4850141218091148628
       touhou_projectiles_and_items_98: -7056557333415440737
       touhou_projectiles_and_items_99: 7477140230928793612
+      touhou_star_large_aquamarine: 302187908
+      touhou_star_large_blue: -1742998813
+      touhou_star_large_green: -1940458645
+      touhou_star_large_none: -1199477684
+      touhou_star_large_pink: 779873452
+      touhou_star_large_red: -1941554183
+      touhou_star_large_white: 5543226224937587791
+      touhou_star_large_yellow: -1463464188
+      touhou_star_small_blue: -1992563826
+      touhou_star_small_blue_dark: 2120529714
+      touhou_star_small_green: -139822030
+      touhou_star_small_pink: 1971105429
+      touhou_star_small_purple: 913448901
+      touhou_star_small_red: -1624869506
+      touhou_star_small_red_dark: 1796286599
+      touhou_star_small_yellow: -1844195112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
