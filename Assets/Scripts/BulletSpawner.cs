@@ -31,6 +31,7 @@ public class BulletSpawner : MonoBehaviour
     [SerializeField] private Vector2 _spread = Vector2.zero;
     [SerializeField] private bool _randomSpread = false;
     [SerializeField] private Vector2 _randomSpreadArea;
+    [SerializeField] private bool _autoFire = true;
 
     [Range(0.001f, 256.0f)] 
     [SerializeField] private float _fireRate = 10.0f;
@@ -86,7 +87,8 @@ public class BulletSpawner : MonoBehaviour
 
     void Update()
     {
-        _fireTimer += Time.deltaTime;
+        if (!_autoFire) return;
+
         _lifetime += Time.deltaTime;
 
         if (_lifetime > _maxLifetime) Despawn();
@@ -172,10 +174,20 @@ public class BulletSpawner : MonoBehaviour
         };
     }
 
-    public void TryShoot()
+    public bool TryShoot()
     {
-        if (_fireTimer >= GetShotInterval())
+        _fireTimer += Time.deltaTime;
+        bool shouldFire = _fireTimer >= GetShotInterval();
+
+        if (shouldFire)
             ShootXTimes(_firingMode == FiringMode.Instant ? _maxShots * _burstSize : _burstSize);
+
+        return shouldFire;
+    }
+
+    public void SetBulletPrefab(Bullet bullet)
+    {
+        _bulletPrefab = bullet;
     }
 
     private void Despawn()

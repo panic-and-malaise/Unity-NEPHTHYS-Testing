@@ -243,14 +243,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 0
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 15
   _rotationOffset: 320
   _burstSize: 3
   _spread: {x: 0.15, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 6
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
@@ -307,14 +308,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 0
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 15
   _rotationOffset: 320
   _burstSize: 3
   _spread: {x: 0.3, y: 0}
   _randomSpread: 1
   _randomSpreadArea: {x: 1, y: 5}
+  _autoFire: 1
   _fireRate: 3
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 5865351080643801460, guid: e91119563df5744e090e2ac3a63e5830, type: 3}
@@ -332,7 +334,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76980971}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -373,7 +375,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
+  m_Sprite: {fileID: -1844195112, guid: f57dd049ae60bba0b968bd28bee9b69a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -423,7 +425,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108619180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -514,6 +516,7 @@ MonoBehaviour:
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 0
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -644,14 +647,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 40
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -767,14 +771,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 120
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -891,14 +896,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 0
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 15
   _rotationOffset: 320
   _burstSize: 3
   _spread: {x: 0.15, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 6
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
@@ -1024,6 +1030,7 @@ MonoBehaviour:
   _spread: {x: 0, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 0
   _fireRate: 10
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -1154,14 +1161,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 240
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -1535,14 +1543,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 0
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -1900,14 +1909,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 80
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -2080,7 +2090,6 @@ GameObject:
   - component: {fileID: 819656600}
   - component: {fileID: 819656599}
   - component: {fileID: 819656601}
-  - component: {fileID: 819656602}
   - component: {fileID: 819656603}
   m_Layer: 7
   m_Name: PlayerShip
@@ -2162,7 +2171,9 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1752378081}
+  - {fileID: 1447339092}
   - {fileID: 108619181}
+  - {fileID: 941593019}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &819656599
@@ -2209,7 +2220,8 @@ MonoBehaviour:
   _actionShootPrimary: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   _speedNormal: 6
   _speedFocus: 3
-  _shooter: {fileID: 1752378080}
+  _shooterNormal: {fileID: 1752378082}
+  _shooterFocus: {fileID: 1447339093}
   _health: 3
   _invincibilityTime: 0
   _hitboxVisual: {fileID: 108619182}
@@ -2249,23 +2261,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.059324846}
   m_Radius: 0.12424486
---- !u!111 &819656602
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819656596}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 7993c6bafd521f3e2b53463b866fbe91, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
 --- !u!95 &819656603
 Animator:
   serializedVersion: 7
@@ -2288,6 +2283,97 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &941593018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 941593019}
+  - component: {fileID: 941593020}
+  m_Layer: 7
+  m_Name: SwitchEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &941593019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941593018}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 819656598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &941593020
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941593018}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7500998401085751749, guid: dbdd65f02bbdde91784085583e849f7b, type: 3}
+  m_Color: {r: 1, g: 0.41037738, b: 0.41037738, a: 0.28235295}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.142857, y: 3.142857}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
 --- !u!1 &979465211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,14 +2477,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 0
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 15
   _rotationOffset: 320
   _burstSize: 3
   _spread: {x: 0.15, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 6
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
@@ -2615,6 +2702,7 @@ MonoBehaviour:
   _spread: {x: 1, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 0
   _fireRate: 30
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -2926,14 +3014,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 0
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 15
   _rotationOffset: 320
   _burstSize: 3
   _spread: {x: 0.15, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 6
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
@@ -3066,14 +3155,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 280
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -3180,11 +3270,74 @@ Transform:
   - {fileID: 337288272}
   - {fileID: 1256667705}
   - {fileID: 1573102083}
-  - {fileID: 1761805355}
   - {fileID: 1542205557}
   - {fileID: 76980972}
   m_Father: {fileID: 1448300224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1447339091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1447339092}
+  - component: {fileID: 1447339093}
+  m_Layer: 6
+  m_Name: PlayerShooterFocus
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1447339092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447339091}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 819656598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1447339093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447339091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15e79772c48b165b6a76c0273bd8cca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
+  _spawnerType: 0
+  _firingMode: 0
+  _maxShots: 2147483647
+  _maxLifetime: 1e+10
+  _rotationDegrees: 1
+  _rotationOffset: 0
+  _burstSize: 1
+  _spread: {x: 0, y: 0}
+  _randomSpread: 0
+  _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 0
+  _fireRate: 15
+  _timeBetweenShots: 0.5
+  _bulletPrefab: {fileID: 6380459376068889054, guid: f2517a3e0e9cdd12b863e7f37053eb3a, type: 3}
+  _bulletSpeed: 15
+  _bulletLifetime: 1
+  _poolSize: 64
+  _firePoint: {fileID: 1447339092}
+  _fireDirection: {x: 0, y: 1}
+  _visualSelector: {fileID: 0}
 --- !u!1 &1448300222
 GameObject:
   m_ObjectHideFlags: 0
@@ -3437,14 +3590,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 0
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 15
   _rotationOffset: 320
   _burstSize: 3
   _spread: {x: 0.3, y: 0}
   _randomSpread: 1
   _randomSpreadArea: {x: 1, y: 5}
+  _autoFire: 1
   _fireRate: 3
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
@@ -3462,7 +3616,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542205556}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3503,7 +3657,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
+  m_Sprite: {fileID: -139822030, guid: f57dd049ae60bba0b968bd28bee9b69a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3560,14 +3714,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 320
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -3645,7 +3800,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1752378081}
-  - component: {fileID: 1752378080}
+  - component: {fileID: 1752378082}
   m_Layer: 6
   m_Name: PlayerShooter
   m_TagString: Untagged
@@ -3653,26 +3808,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1752378080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1752378079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47f76eeff30681a699116bfbb84a7421, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  _bulletPrefab: {fileID: 8545800246054719875, guid: 4e3711b936588fd4aad4fbb7742665ae, type: 3}
-  _bulletPrefabFocus: {fileID: 485890507011202685, guid: 8f7404bea409ff923a5dc9113c17bea2, type: 3}
-  _bulletSpeed: 15
-  _bulletLifetime: 1
-  _fireRate: 15
-  _poolSize: 64
-  _firePoint: {fileID: 1752378081}
-  _fireDirection: {x: 0, y: 1}
 --- !u!4 &1752378081
 Transform:
   m_ObjectHideFlags: 0
@@ -3688,129 +3823,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 819656598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1761805354
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1761805355}
-  - component: {fileID: 1761805357}
-  - component: {fileID: 1761805356}
-  m_Layer: 0
-  m_Name: Homing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1761805355
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761805354}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1349362646}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1761805356
+--- !u!114 &1752378082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761805354}
+  m_GameObject: {fileID: 1752378079}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15e79772c48b165b6a76c0273bd8cca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
-  _spawnerType: 2
+  _spawnerType: 0
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
-  _rotationDegrees: 15
-  _rotationOffset: 320
-  _burstSize: 3
-  _spread: {x: 0.3, y: 0}
+  _maxShots: 2147483647
+  _maxLifetime: 1e+10
+  _rotationDegrees: 1
+  _rotationOffset: 0
+  _burstSize: 1
+  _spread: {x: 0, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
-  _fireRate: 3
+  _autoFire: 0
+  _fireRate: 15
   _timeBetweenShots: 0.5
-  _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
-  _bulletSpeed: 3
-  _bulletLifetime: 5
+  _bulletPrefab: {fileID: 6380459376068889054, guid: 86044457ff141c33088668414caf3ae2, type: 3}
+  _bulletSpeed: 15
+  _bulletLifetime: 1
   _poolSize: 64
-  _firePoint: {fileID: 1761805355}
-  _fireDirection: {x: 0, y: -1}
+  _firePoint: {fileID: 1752378081}
+  _fireDirection: {x: 0, y: 1}
   _visualSelector: {fileID: 0}
---- !u!212 &1761805357
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761805354}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: -712631045867808456, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
 --- !u!1 &1847873196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3858,14 +3902,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 200
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}
@@ -4018,14 +4063,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 0
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 15
   _rotationOffset: 320
   _burstSize: 3
   _spread: {x: 0.15, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 6
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
@@ -4158,14 +4204,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletSpawner
   _spawnerType: 1
   _firingMode: 0
-  _maxShots: 256
-  _maxLifetime: 1000
+  _maxShots: 100000
+  _maxLifetime: 59
   _rotationDegrees: 5
   _rotationOffset: 160
   _burstSize: 1
   _spread: {x: 0.3, y: 0}
   _randomSpread: 0
   _randomSpreadArea: {x: 0, y: 0}
+  _autoFire: 1
   _fireRate: 4
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 2397297020821620090, guid: 6543d9fb440f9906ebb9f863bf5d213a, type: 3}

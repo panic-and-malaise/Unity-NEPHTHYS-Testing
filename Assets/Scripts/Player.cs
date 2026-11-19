@@ -18,7 +18,8 @@ public class Player : MonoBehaviour, IDamageable
     [SerializeField] private float _speedFocus;
     
     [Header("Combat")]
-    [SerializeField] private PlayerShooter _shooter;
+    [SerializeField] private BulletSpawner _shooterNormal;
+    [SerializeField] private BulletSpawner _shooterFocus;
     [SerializeField] private int _health = 3;
     [SerializeField] private float _invincibilityTime = 1.0f;
 
@@ -29,18 +30,30 @@ public class Player : MonoBehaviour, IDamageable
     private SpriteRenderer _sprite;
     private Animator _animator;
 
+    private BulletSpawner _shooter;
     private Vector2 _moveInput;
     private bool _isFocused;
     private float _invincibilityTimer;
 
     private bool IsInvincible => _invincibilityTimer > 0.0f;
-    public bool IsFocused => _isFocused;
+    public bool IsFocused
+    {
+        get =>_isFocused; private set
+        {
+            _isFocused = value;
+            // _hitboxVisual.enabled = _isFocused;
+            _shooter = _isFocused ? _shooterFocus : _shooterNormal;
+        }
+    }
 
     void Awake()
     {
         _body = GetComponent<Rigidbody2D>();
         _sprite = GetComponent<SpriteRenderer>();
         _animator = GetComponent<Animator>();
+
+        _shooter = _shooterNormal;
+
         Instance = this;
     }
 
@@ -69,8 +82,7 @@ public class Player : MonoBehaviour, IDamageable
         _moveInput = _actionMove.action.ReadValue<Vector2>();
         _moveInput = Vector2.ClampMagnitude(_moveInput, 1.0f);
 
-        _isFocused = _actionFocus.action.IsPressed();
-        _hitboxVisual.enabled = _isFocused;
+        IsFocused = _actionFocus.action.IsPressed();
 
         _animator.SetBool("Moving", _moveInput.x != 0.0f);
         _animator.SetBool("Focused", _isFocused);
@@ -78,7 +90,10 @@ public class Player : MonoBehaviour, IDamageable
 
 
         if (_actionShootPrimary.action.IsPressed())
-            _shooter.TryShoot();
+        {
+            if (_shooter.TryShoot())
+                AudioManager.Instance.PlayEffect(AudioManager.Instance.PlayerShoot);
+        }
 
         if (IsInvincible) _invincibilityTimer -= Time.deltaTime;
     }
