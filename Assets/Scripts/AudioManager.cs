@@ -22,6 +22,10 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField] private AudioClip _enemyDead;
     public AudioClip EnemyDead { get => _enemyDead; }
+    [SerializeField] private AudioClip _enemyShoot;
+    public AudioClip EnemyShoot { get => _enemyShoot; }
+    [SerializeField] private AudioClip _enemyShootVariant;
+    public AudioClip EnemyShootVariant { get => _enemyShootVariant; }
 
     void Awake()
     {
