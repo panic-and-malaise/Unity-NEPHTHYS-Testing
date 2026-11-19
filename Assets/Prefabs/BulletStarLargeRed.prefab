@@ -142,4 +142,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   _damage: 1
-  _rotationSpeed: 1
+  _rotationSpeed: 100

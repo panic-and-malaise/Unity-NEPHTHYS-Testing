@@ -227,7 +227,7 @@ MonoBehaviour:
   _rotationPivot: {fileID: 1897690219}
   _rotationSpeed: -30
   _spriteRotationSpeed: -150
-  _shootTime: 0.75
+  _shootTime: 0.7
   _timeBetweenBursts: 4
 --- !u!114 &52366004
 MonoBehaviour:
@@ -255,7 +255,7 @@ MonoBehaviour:
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
   _bulletSpeed: 3
-  _bulletLifetime: 5
+  _bulletLifetime: 4
   _poolSize: 64
   _firePoint: {fileID: 52366001}
   _fireDirection: {x: 0.2, y: -1}
@@ -317,8 +317,8 @@ MonoBehaviour:
   _randomSpreadArea: {x: 1, y: 5}
   _fireRate: 3
   _timeBetweenShots: 0.5
-  _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
-  _bulletSpeed: 2
+  _bulletPrefab: {fileID: 5865351080643801460, guid: e91119563df5744e090e2ac3a63e5830, type: 3}
+  _bulletSpeed: 1.5
   _bulletLifetime: 7
   _poolSize: 64
   _firePoint: {fileID: 76980972}
@@ -903,7 +903,7 @@ MonoBehaviour:
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
   _bulletSpeed: 3
-  _bulletLifetime: 5
+  _bulletLifetime: 4
   _poolSize: 64
   _firePoint: {fileID: 322457148}
   _fireDirection: {x: -1, y: -1}
@@ -923,7 +923,7 @@ MonoBehaviour:
   _rotationPivot: {fileID: 1897690219}
   _rotationSpeed: -30
   _spriteRotationSpeed: -150
-  _shootTime: 0.75
+  _shootTime: 0.7
   _timeBetweenBursts: 4
 --- !u!212 &322457151
 SpriteRenderer:
@@ -2485,7 +2485,7 @@ MonoBehaviour:
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
   _bulletSpeed: 3
-  _bulletLifetime: 5
+  _bulletLifetime: 4
   _poolSize: 64
   _firePoint: {fileID: 993016032}
   _fireDirection: {x: 1, y: -1}
@@ -2505,7 +2505,7 @@ MonoBehaviour:
   _rotationPivot: {fileID: 1897690219}
   _rotationSpeed: -30
   _spriteRotationSpeed: -150
-  _shootTime: 0.75
+  _shootTime: 0.7
   _timeBetweenBursts: 4
 --- !u!212 &993016035
 SpriteRenderer:
@@ -3020,7 +3020,7 @@ MonoBehaviour:
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
   _bulletSpeed: 3
-  _bulletLifetime: 5
+  _bulletLifetime: 4
   _poolSize: 64
   _firePoint: {fileID: 1171553509}
   _fireDirection: {x: 0, y: 1}
@@ -3040,7 +3040,7 @@ MonoBehaviour:
   _rotationPivot: {fileID: 1897690219}
   _rotationSpeed: -30
   _spriteRotationSpeed: -150
-  _shootTime: 0.75
+  _shootTime: 0.7
   _timeBetweenBursts: 4
 --- !u!212 &1171553512
 SpriteRenderer:
@@ -3530,7 +3530,7 @@ MonoBehaviour:
   _fireRate: 3
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
-  _bulletSpeed: 2
+  _bulletSpeed: 1.5
   _bulletLifetime: 7
   _poolSize: 64
   _firePoint: {fileID: 1542205557}
@@ -4112,7 +4112,7 @@ MonoBehaviour:
   _timeBetweenShots: 0.5
   _bulletPrefab: {fileID: 6407647574659352090, guid: 347e850c1a0cca9ba97ef4a869a4745f, type: 3}
   _bulletSpeed: 3
-  _bulletLifetime: 5
+  _bulletLifetime: 4
   _poolSize: 64
   _firePoint: {fileID: 2115399930}
   _fireDirection: {x: -0.2, y: -1}
@@ -4132,7 +4132,7 @@ MonoBehaviour:
   _rotationPivot: {fileID: 1897690219}
   _rotationSpeed: -30
   _spriteRotationSpeed: -150
-  _shootTime: 0.75
+  _shootTime: 0.7
   _timeBetweenBursts: 4
 --- !u!212 &2115399933
 SpriteRenderer:

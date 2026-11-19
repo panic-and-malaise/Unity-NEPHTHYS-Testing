@@ -3304,7 +3304,7 @@ TextureImporter:
         serializedVersion: 2
         x: 151
         y: 222
-        width: 15
+        width: 16
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3324,9 +3324,9 @@ TextureImporter:
       name: touhou_star_small_green
       rect:
         serializedVersion: 2
-        x: 166
+        x: 167
         y: 222
-        width: 17
+        width: 16
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

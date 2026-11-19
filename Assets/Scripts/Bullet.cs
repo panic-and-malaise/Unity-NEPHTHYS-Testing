@@ -63,8 +63,8 @@ public class Bullet : MonoBehaviour, IProjectile
         _timer += Time.deltaTime;
         if (_timer >= _lifetime) Release();
 
-        if (_rotationSpeed > 0.0f)
-            transform.rotation = Quaternion.Euler(0f, 0f, _rotationSpeed * _timer * 100);
+        if (_rotationSpeed != 0.0f)
+            transform.rotation = Quaternion.Euler(0f, 0f, _rotationSpeed * _timer);
     }
 
     public void SetVisual(BulletVisual visual)
